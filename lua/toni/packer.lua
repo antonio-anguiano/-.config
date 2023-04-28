@@ -40,7 +40,9 @@ return require('packer').startup(function(use)
   use("theprimeagen/refactoring.nvim")
   use("mbbill/undotree")
   use("tpope/vim-fugitive")
-  use("nvim-treesitter/nvim-treesitter-context");
+  use("nvim-treesitter/nvim-treesitter-context")
+  use("christoomey/vim-tmux-navigator")
+  use("ThePrimeagen/vim-be-good")
 
   use {
 	  'VonHeikemen/lsp-zero.nvim',
