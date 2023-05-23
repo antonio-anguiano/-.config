@@ -1,6 +1,7 @@
-
-
-function ColorMyPencils(color)
+require('rose-pine').setup({
+    disable_background = true
+})
+function ColorMe(color)
 	color = color or "rose-pine"
 	vim.cmd.colorscheme(color)
 
@@ -9,4 +10,4 @@ function ColorMyPencils(color)
 
 end
 
-ColorMyPencils()
+ColorMe()
